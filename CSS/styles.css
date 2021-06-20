@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Base*/
+
+body {
+  background-color: #0d0d0d;
+  color: #c6c6c6;
+  font-family: sans-serif;
+}
+
+.menu {
+  background-color: #0d0d0d;
+  width: 100%;
+  height: 68px;
+  display: flex;
+  align-items: center;
+}
+
+.logo_netflix {
+  width: 117px;
+  height: 49px;
+  margin: 47px 32px 47px 48px;
+  padding: 0;
+}
+
+.menu_opcoes {
+  text-align: left;
+}
+
+.menu_opcoes a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+  color: #c6c6c6;
+  margin-right: 18px;
+}
+
+.menu_opcoes a:hover {
+  color: white;
+}
+
+.submenu {
+  margin: 0 0 20px 55%;
+}
+
+.submenu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 13px;
+  color: #c6c6c6;
+}
+
+.i2 {
+  margin: 0 6px auto 5px;
+}
+
+.submenu a:hover {
+  color: white;
+}
+
+/*Filme Principal*/
+
+.filme_principal {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  background: linear-gradient(rgba(0, 0, 0.5), rgba(0, 0, 0, 0.5) 10%),
+    url("/IMG/twd_capa2.jpg");
+  height: 868px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.logo_n {
+  width: 35px;
+}
+
+.descricao {
+  margin-right: 60%;
+}
+
+.titulo {
+  font-size: 90px;
+  margin: 10px 0 20px 0;
+}
+
+.container {
+  margin-left: 48px;
+  margin-top: 80px;
+}
+
+.botoes {
+  margin: 70px 60% 5% 0;
+}
+
+.botoes :hover {
+  background-color: #c6c6c6;
+  color: black;
+}
+
+.botao1,
+.botao2 {
+  background-color: #c6c6c63f;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: 0.5s ease all;
+}
+
+.botao2 {
+  margin-left: 5px;
+}
+
+.botoes i {
+  margin-right: 10px;
+}
+
+.box_filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carousel_filmes {
+  max-width: 93%;
+  min-width: 93%;
+  margin-left: 55px;
+}
+
+.carousel_filmes .favorites {
+  margin-bottom: 10px;
+}
